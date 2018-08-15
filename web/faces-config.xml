@@ -9,4 +9,4 @@
         <managed-bean-class>com.gallerycrm.entities.Picture</managed-bean-class>
         <managed-bean-scope>request</managed-bean-scope>
     </managed-bean>
-</faces-config>
+</faces-config> 
