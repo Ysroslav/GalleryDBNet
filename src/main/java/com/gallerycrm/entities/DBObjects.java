@@ -1,4 +1,4 @@
 package com.gallerycrm.entities;
 
-public interface DBObjects {
+public interface DBObjects { 
 }
