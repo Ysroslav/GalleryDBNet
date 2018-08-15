@@ -19,6 +19,8 @@ public class Picture implements Serializable, DBObjects {
     private double valueBalance;
     @Column(name = "apostel", length = 255, nullable = false, updatable = true)
     private String apostel;
+    @Column(name = "typeId", nullable = false, updatable = true)
+    private Long typeId;
     boolean editable;
 
     public Picture(){}
@@ -28,11 +30,13 @@ public class Picture implements Serializable, DBObjects {
     public void setTitle(String title){this.title = title;}
     public void setValueBalance(double valueBalance){this.valueBalance = valueBalance;}
     public void setApostel(String apostel){this.apostel = apostel;}
+    public void setTypeId(Long typeId){this.typeId = typeId;}
     public void setEditable(boolean editable){this.editable = editable;}
 
     public Long getId(){return id;}
     public String getTitle(){return title;}
     public double getValueBalance(){return valueBalance;}
     public String getApostel(){return apostel;}
+    public Long getTypeId(){return typeId;}
     public boolean getEditable(){return editable;}
 }
