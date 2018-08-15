@@ -22,4 +22,4 @@ public class AbstractDAO {
         if(resultList.isEmpty()) return null;
         return resultList.get(0);
     }
-}
+} 
