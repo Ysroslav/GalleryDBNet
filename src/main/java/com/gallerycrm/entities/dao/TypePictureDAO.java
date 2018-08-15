@@ -41,6 +41,6 @@ public class TypePictureDAO extends AbstractDAO {
         if(typeId == null||typeId.isEmpty()) return;
         final TypePicture type = getPictureById(typeId);
         manager.remove(type);
-    }
+    } 
 
 }
