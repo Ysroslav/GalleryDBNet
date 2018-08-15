@@ -1,13 +1,6 @@
-package com.gallerycrm.entities;
+package com.gallerycrm.entities; 
 
-/*
-Я использовал свой тестовый проект, который я писал для галерии. Класс Picture - класс картин
-Sale - продажи, TypePicture - типы картин, для каждого класса я написал свой бин (CDI: PictureBean,
-SaleBean, TypePicture соответсвенно) и потестировал один управляющий бин (PictureList);
-для каждого бина создал файл xhtml, ( PictureBen - index.xhtml,SaleBean - sales.xhtml, TypePicture - types.xhtml)
-в них я сделал таблицу, для отображения информации и кнопки для изменения, удаления, вставки. Данные
-для таблиц я просто генерировал в конструкторах классах, так не много запутался с интеграцией базы данных
- */
+
 
 import javax.persistence.*;
 import java.io.Serializable;
