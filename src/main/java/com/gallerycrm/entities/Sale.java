@@ -19,8 +19,6 @@ public class Sale implements Serializable, DBObjects {
     private Long pictureId;
     @Column(name = "prize", nullable = false, updatable = true)
     private double prize;
-    @Column(name = "manager_id", nullable = false, updatable = true)
-    private Long managerId;
     boolean editable;
 
     public Sale(){}
@@ -29,12 +27,9 @@ public class Sale implements Serializable, DBObjects {
     public void setPictureId(Long pictureId){this.pictureId = pictureId;}
     public void setPrize(double prize){this.prize = prize;}
     public void setEditable(boolean editable){this.editable = editable;}
-    public void setManagerId(Long managerId) {
-        this.managerId = managerId;
-    }
+ 
 
     public Long getId(){return id;}
-    public Long getManagerId(){return managerId;}
     public Long getPictureId(){return pictureId;}
     public double getPrize() {
         return prize;
