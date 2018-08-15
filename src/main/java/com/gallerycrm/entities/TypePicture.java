@@ -35,4 +35,4 @@ public class TypePicture implements Serializable, DBObjects {
     public String getNameType(){return nameType;}
     public String getShortName(){return shortName;}
     public boolean getEditable(){return editable;}
-}
+} 
